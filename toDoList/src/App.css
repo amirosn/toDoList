@@ -1,0 +1,83 @@
+body{
+    background-color: #3c3c3c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 800px;
+
+}
+.form-row input{
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(51, 131, 171);
+    font-size: 1.5em;
+    color: rgb(195, 212, 220);
+}
+.form-row label{
+    padding: 10px 10px 0 10px;
+    font-size: 1.7em;
+    font-weight: 500;
+    color: rgb(195, 212, 220);
+    
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 800px;
+}
+.btn{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 4px solid rgb(51, 131, 171);
+    background-color: #3c3c3c;
+    font-size: 1.5em;
+    color: rgb(58, 148, 193);
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(70, 69, 69)
+}
+.header{
+    margin: 30px;
+    color: rgb(195, 212, 220);
+}
+.list{
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 550;
+    color: rgb(195, 212, 220);
+}
+.list label{
+    font-size: 1.5em;
+    font-weight: 550;
+    color: rgb(195, 212, 220);
+    text-align: center;
+}
+.list input{
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    
+}
+.btn-danger{
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: #3c3c3c;
+    border: 2px solid rgb(255, 43, 43);
+    color: rgb(255, 43, 43);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.btn-danger:hover{
+    background-color: rgb(78, 77, 77);
+}
